@@ -12,7 +12,9 @@ function Footer (){
             <div className='footer'>
                 <div>
                 <img src={Logo} alt=''  className='logoImg'/>
-                    <h4>CONTACTO</h4> 
+                </div>
+                <div>
+                    <h4>CONTACTANOS</h4> 
                     <li className='li'><img src={Call} alt=''  className='contactImg'/><h5>011-1234567</h5></li>
                     <li className='li'><img src={Gmail} alt='' className='contactImg'/><h5>fullcel@gmail.com</h5></li>
                     <li className='li'><img src={Location} alt='' className='contactImg'/><h5>Av. Colon 713, CP 5500</h5></li>
@@ -30,11 +32,15 @@ function Footer (){
                     <img src={Facebook} alt=''  className='img'/>
                     <img src={Instagram} alt='' className='img'/>
                     <img src={Whatsapp} alt='' className='img'/>
-
                 </div>
                 <div>
-                    <h4>ENVIANOS UN COMENTARIO</h4>
-                    formulario
+                    <h4>PREGUNTAS FRECUENTES</h4>
+                    <ul>
+                        <li className='li'><h5>¿Qué beneficios tiene adquirir este producto o servicio?</h5></li>
+                        <li className='li'><h5>¿Tiene garantía?</h5></li>
+                        <li className='li'><h5>¿Qué métodos de pago aceptan?</h5></li>
+                        <li className='li'><h5>¿En cuánto tiempo tendré listo mi producto?</h5></li>
+                    </ul>
                 </div>
             </div>
     )
