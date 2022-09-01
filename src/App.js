@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import Header from './Componentes/Header';
-
+import Carrousel from './Componentes/Carrousel';
 
 
 function App() {
   return (
-    <div className="App">
+    <div >
+      <Carrousel/>
+      
       <Header
-      titulo='Prueba'/>
-
+      titulo='Prueba'/> 
+      
     </div>
   );
 }
