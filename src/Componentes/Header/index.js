@@ -11,10 +11,19 @@ const Header = () => {
             </a>
             <ul>
                 <li>
-                    <a href="#">INICIO</a>
+                    <a href="#">Celulares</a>
                 </li>
                 <li>
-                    <a href="#">PRODUCTOS</a>
+                    <a href="#">Tecnologia</a>
+                </li>
+                <li>
+                    <a href="#">Varios</a>
+                </li>
+                <li>
+                    <a href="#">Ofertas</a>
+                </li>
+                <li>
+                    <a href="#">Sobre Nosotros</a>
                 </li>
             </ul>
             <di className="cart">
