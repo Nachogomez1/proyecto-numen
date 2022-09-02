@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: gainsboro;
+  
 }
 
 .App-logo {
@@ -43,6 +44,7 @@
   flex-direction: baseline;
   justify-content:space-around;
 
+
 }
 .li{
   list-style: none;
@@ -53,13 +55,40 @@
   width: 40px;
   height: 40px;
 }
+
+
+
+.li{
+  list-style: none;
+  text-align: left;
+}
+
+.img{
+  width: 40px;
+  height: 40px;
+  flex-direction: column-reverse;
+}
+
+.img:hover{
+  filter: opacity(0.3) drop-shadow(0 0 0 rgb(167, 6, 156)); 
+}
+
+
 .contactImg{
   width: 25px;
   height: 25px;
   float: left;
   margin: 1px;
 }
+
 .logoImg{
   width: 45px;
   height: 45px;
 }
+
+
+.logoImg{
+  width: 150px;
+  height: 150px;
+}
+
