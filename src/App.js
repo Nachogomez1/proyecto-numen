@@ -1,20 +1,19 @@
+
 import React, { } from 'react';
-//import './App.css';
 import Card from './Componentes/Card';
-//import Navbar from './Componentes/Navbar';
 import Header from './Componentes/Header';
 import 'boxicons';
-
-
-
+import './App.css';
+import Footer from './Componentes/Footer'
 
 
 function App() {
   return (
     <div className="App">
-      <Header/>         
+      <Header />
+      <Footer />
     </div>
-    
+
   );
 }
 
