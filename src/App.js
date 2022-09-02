@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './Componentes/Header';
-import Carrousel from './Componentes/Carrousel';
+
 
 
 function App() {
@@ -10,8 +9,8 @@ function App() {
       <Carrousel/>
       
       <Header
-      titulo='Prueba'/> 
-      
+      titulo='Prueba'/>
+
     </div>
   );
 }
