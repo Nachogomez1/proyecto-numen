@@ -6,9 +6,74 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.6rem;
+  background-color: gainsboro ;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.cases{
+  background-image:url("https://cdn.pixabay.com/photo/2016/05/27/08/51/mobile-phone-1419275_960_720.jpg" );
+  background-size: 100%;
+  
+}
+.banner3 {
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: transparent;
+  font-size: 20vh;
+   -moz-text-stroke-width: 2px;
+  -webkit-text-stroke-width: 2px;
+  -moz-text-stroke-color: #19020f;
+  -webkit-text-stroke-color: #8e0736;
+  animation: abanner3 2.5s linear infinite;
+  text-align: center;
+  
+}
+
+@keyframes abanner3 {
+  0%{
+    text-shadow: transparent ;
+  }
+  50%{
+    text-shadow: #BC37E5 2px 2px 2px;
+  }
+  100%{
+    text-shadow: transparent;
+  }
+}
+
+
+.grid-responsive{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 30px;
+
+}
+
+.benef {
+  
+  padding: 1rem;
+  color: violet;
+
+}
+
+.container{
+ 
+  text-align: center;
+  text-decoration: underline black; 
+  font-family: roboto;
+  
+}
+
+
+
+.benef:hover{
+  color: black;
+  text-shadow: #8e0736 1px 1px 4px;
 }
