@@ -1,7 +1,7 @@
 
 
 import React, { } from 'react';
-import Card from './Componentes/Card';
+//import Card from './Componentes/Card';
 import Header from './Componentes/Header';
 import 'boxicons';
 import './App.css';
@@ -13,6 +13,7 @@ import InfoBeneficios from './Componentes/InfoBeneficios'
 
 function App() {
   return (
+
     <>
       <div>
         <Header />
@@ -35,6 +36,7 @@ function App() {
       </div>
 
     </>
+
 
   );
 }
