@@ -8,17 +8,12 @@ import InfoBeneficios from './Componentes/InfoBeneficios';
 function App() {
   return (
     <div > 
-      
+      <Header
+      titulo='Prueba'/>
       <Banner3/>
       <InfoBeneficios/>
       <Carrousel/>
-      
-      <Header
-      titulo='Prueba'/>
-    
-
       <Footer/>
-
     </div>
   );
 }
