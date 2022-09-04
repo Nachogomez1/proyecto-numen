@@ -1,19 +1,43 @@
-import './App.css';
+
+
+import React, { } from 'react';
+//import Card from './Componentes/Card';
 import Header from './Componentes/Header';
-import Carrousel from './Componentes/Carrousel'
+import 'boxicons';
+import './App.css';
 import Footer from './Componentes/Footer'
+import Carrousel from './Componentes/Carrousel'
+import Banner3 from './Componentes/Banner3'
+import InfoBeneficios from './Componentes/InfoBeneficios'
+
 
 function App() {
   return (
-    <div >
-      <Carrousel/>
-      
-      <Header
-      titulo='Prueba'/>
 
-      <Footer/>
+    <>
+      <div>
+        <Header />
+      </div>
 
-    </div>
+      <div>
+        <Banner3 />
+      </div>
+
+      <div>
+        <InfoBeneficios />
+      </div>
+
+      <div>
+        <Carrousel />
+      </div>
+
+      <div>
+        <Footer />
+      </div>
+
+    </>
+
+
   );
 }
 
