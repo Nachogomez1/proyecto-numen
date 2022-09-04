@@ -7,8 +7,8 @@ import 'boxicons';
 import './App.css';
 import Footer from './Componentes/Footer'
 import Carrousel from './Componentes/Carrousel'
-import Banner3 from './Componentes/Banner3'
-import InfoBeneficios from './Componentes/InfoBeneficios'
+import Banner3 from './Componentes/Banner3/Banner3'
+import InfoBeneficios from './Componentes/InfoBeneficios/InfoBeneficios'
 
 
 function App() {
