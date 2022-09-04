@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: gainsboro;
+  
 }
 
 .App-logo {
@@ -38,12 +39,33 @@
   }
 }
 
+
+.footer{
+  display: flex;
+  flex-direction: baseline;
+  justify-content:space-around;
+}
+
+
+
 /* ________________---FOOTER---________________*/
 
 .Footer{
   width: 100%;
   background-color: #061726;
+
 }
+.li{
+  list-style: none;
+  flex-direction: column;
+  text-align: left;
+}
+.img{
+  width: 40px;
+  height: 40px;
+}
+
+
 
 /* ________________---GRUPO 0---________________*/
 
@@ -80,6 +102,27 @@
   font-size: 20px;
 }
 
+
+
+.contactImg{
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin: 1px;
+}
+
+.logoImg{
+  width: 45px;
+  height: 45px;
+}
+
+
+.logoImg{
+  width: 150px;
+  height: 150px;
+}
+
+
 .Footer .grupo-1 .box p{
   color: rgb(174, 178, 181);
   margin-bottom: 10px;
@@ -111,3 +154,4 @@
   text-align: center;
   color: white;
 }
+
