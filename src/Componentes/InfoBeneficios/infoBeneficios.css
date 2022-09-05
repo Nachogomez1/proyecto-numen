@@ -1,0 +1,29 @@
+
+.grid-responsive{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 30px;
+  
+  }
+  
+  .benef {
+    
+    padding: 1rem;
+    color: violet;
+  
+  }
+  
+  .container{
+   
+    text-align: center;
+    text-decoration: underline black; 
+    font-family: roboto;
+    
+  }
+  
+  .benef:hover{
+    color: black;
+    text-shadow: #8e0736 1px 1px 4px;
+  
+  }
