@@ -1,0 +1,79 @@
+/* ________________---FOOTER---________________*/
+
+.Footer{
+    width: 100%;
+    background-color: #061726;
+  }
+  
+
+  /* ________________---GRUPO 1---________________*/
+  
+  .Footer .grupo-1{
+    width: 100%;
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    padding: 10px 0px;
+    background-color: rgb(143, 9, 116);
+    text-align: left;
+    align-content: center;
+    
+  }
+  
+  .Footer .grupo-1 .imgLogoFooter{
+    width: 250px;
+  }
+  
+  /* ________________---BOX GRUPO 1---________________*/
+  
+  .Footer .grupo-1 .box h3{
+    color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .Footer .grupo-1 .box p{
+    color: rgb(174, 178, 181);
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .Footer .grupo-1 .box .resaltado:hover{
+    color: white;
+  }
+  
+  /* ________________---RED SOCIAL---________________*/
+  
+  .Footer .grupo-1 .redSocial img{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+
+  }
+  
+  .Footer .grupo-1 .redSocial img:hover{
+    filter: opacity(0.3) drop-shadow(0 0 0 rgb(215, 2, 201)); 
+  }
+  
+  /* ________________---GRUPO 2---________________*/
+  
+  .Footer .grupo-2{
+    background-color: rgba(160, 9, 130, 0.655) ;
+    padding: 15px 10px;
+    text-align: center;
+    color: white;
+  }
+
+  /* ________________---RESPONSIVE---________________*/
+
+  @media screen and (max-width:800px){
+    .Footer .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
