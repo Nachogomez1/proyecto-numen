@@ -7,15 +7,17 @@ const Button = (props) => {
             backgroundColor: "darkgreen",
             padding: "10px",
             border: "border",
-            borderRadius: ".5rem",
-            fontSize: "1.5rem",
+            borderRadius: "0.5rem",
+            fontSize: "0.5rem",
             textTransform: "uppercase",
-            width: "90%",
+            width: "70%",
             margin: "0 auto",
-            height: "20%"
+            height: "10%"
 
         }}>
-            <h1>{props.titulo[2]}</h1>
+            <h1 style={{
+                fontSize: "1.5rem",
+            }}>{props.titulo[3]}</h1>
         </button>
     )
 }

@@ -7,7 +7,7 @@ const Header = () => {
         <header>
             <a href="#">
                 <div className="logo">
-                    <img src={logo} alt="" width="150"/>
+                    <img src={logo} alt="" width="100"/>
                 </div>
             </a>
             <ul>
@@ -27,10 +27,10 @@ const Header = () => {
                     <a href="#">Sobre Nosotros</a>
                 </li>
             </ul>
-            <di className="cart">
+            {/* <div className="cart">
             <box-icon name="cart"></box-icon>
             <span className="item_total">0</span>
-            </di>
+            </div> */}
         </header>
     )
 }
