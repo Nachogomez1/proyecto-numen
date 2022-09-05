@@ -1,0 +1,33 @@
+.cases{
+    background-image:url("https://cdn.pixabay.com/photo/2016/05/27/08/51/mobile-phone-1419275_960_720.jpg" );
+    background-size: 100%;
+    
+  }
+
+
+.banner3 {
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: transparent;
+    font-size: 20vh;
+     -moz-text-stroke-width: 2px;
+    -webkit-text-stroke-width: 2px;
+    -moz-text-stroke-color: #19020f;
+    -webkit-text-stroke-color: #8e0736;
+    animation: abanner3 2.5s linear infinite;
+    text-align: center;
+    
+  }
+  
+  @keyframes abanner3 {
+    0%{
+      text-shadow: transparent ;
+    }
+    50%{
+      text-shadow: #BC37E5 2px 2px 2px;
+    }
+    100%{
+      text-shadow: transparent;
+    }
+  }
