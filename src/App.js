@@ -11,7 +11,6 @@ import Banner3 from './Componentes/Banner3/Banner3';
 import InfoBeneficios from './Componentes/InfoBeneficios/InfoBeneficios';
 
 
-
 function App() {
   return (
       <div>
