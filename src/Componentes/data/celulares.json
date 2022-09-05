@@ -1,0 +1,194 @@
+{
+    "celulares": [
+      {
+        "id": 1,
+        "nombre": "Galaxy A23",
+        "marca": "Samsung",
+        "precio": 75999,
+         "caracteristicas":{
+         "Tamaño de la pantalla": 6.6, 
+         "Memoria interna": "128 GB",
+         "Cámara trasera principal": "50 Mpx",
+         "Cámara frontal principal": "8 Mpx"
+        }
+      },
+      {
+        "id": 2,
+        "nombre": "Z flip4 5g",
+        "director": "Samsung",
+        "precio": 188000,
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.7, 
+          "Memoria interna": "256 GB",
+          "Cámara trasera principal": "12 Mpx",
+          "Cámara frontal principal": "10 Mpx"
+         }
+      },
+      {
+        "id": 3,
+        "nombre": "A 13",
+        "director": "Samsung",
+        "precio": 65999,
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.6, 
+          "Memoria interna": "64 GB",
+          "Cámara trasera principal": "50 Mpx",
+          "Cámara frontal principal": "8 Mpx"
+         }
+      },
+      {
+        "id": 4,
+        "nombre": "S20 Fe 5g",
+        "director": "Samsung",
+        "precio": 141999,
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.5, 
+          "Memoria interna": "128 GB",
+          "Cámara trasera principal": "12 Mpx",
+          "Cámara frontal principal": "32 Mpx"
+         }
+      },
+      {
+        "id": 5,
+        "nombre": "S21 Fe 5g",
+        "director": "Samsung",
+        "precio": 174999,
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.4, 
+          "Memoria interna": "128 GB",
+          "Cámara trasera principal": "12 Mpx",
+          "Cámara frontal principal": "32 Mpx"
+         }
+      },
+      {
+        "id": 6,
+        "nombre": "A53 5g",
+        "director": "Samsung",
+        "precio": 119999,
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.5, 
+          "Memoria interna": "128 GB",
+          "Cámara trasera principal": "64 Mpx",
+          "Cámara frontal principal": "32 Mpx"
+         }
+      },
+      {
+        "id": 7,
+        "nombre": "A33",
+        "director": "Samsung",
+        "precio": 99999,
+        "imagen": "https://images.samsung.com/is/image/samsung/p6pim/es/2202/gallery/es-galaxy-s22-ultra-s908-411065-sm-s908blbdeub-530876832",
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.4, 
+          "Memoria interna": "128 GB",
+          "Cámara trasera principal": "48 Mpx",
+          "Cámara frontal principal": "13 Mpx"
+         }
+      },
+      {
+        "id": 8,
+        "nombre": "S22 ultra",
+        "director": "Samsung",
+        "precio": 309999,
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.8, 
+          "Memoria interna": "256 GB",
+          "Cámara trasera principal": "108 Mpx",
+          "Cámara frontal principal": "40 Mpx"
+         }
+      },
+      {
+        "id": 9,
+        "nombre": "Edge 30Pro",
+        "director": "Motorola",
+        "precio": 199999,
+        "imagen": "https://cbff-teco-strapi-cms-pro.s3.amazonaws.com/Moto_Edge30_Front_min_00ad4f98e6.png",
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.67, 
+          "Memoria interna": "256 GB",
+          "Cámara trasera principal": "50 Mpx",
+          "Cámara frontal principal": "60 Mpx"
+         }
+      },
+      {
+        "id": 10,
+        "nombre": "G200",
+        "director": "Motorola",
+        "precio": 132999,
+        "imagen": "https://armoto.vtexassets.com/arquivos/ids/162864-300-300?v=637955901737800000&width=300&height=300&aspect=true",
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.78, 
+          "Memoria interna": "128 GB",
+          "Cámara trasera principal": "108 Mpx",
+          "Cámara frontal principal": "16 Mpx"
+         }
+      },
+      {
+        "id": 11,
+        "nombre": "G71",
+        "director": "Motorola",
+        "precio": 82999,
+        "imagen": "https://tienda.att.com.mx/media/catalog/product/a/z/az1.jpg",
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.43, 
+          "Memoria interna": "128 GB",
+          "Cámara trasera principal": "50 Mpx",
+          "Cámara frontal principal": "16 Mpx"
+         }
+      },
+      {
+        "id": 12,
+        "nombre": "E20",
+        "director": "Motorola",
+        "precio": 37999,
+        "imagen": "https://armoto.vtexassets.com/arquivos/ids/162873-300-300?v=637955909650100000&width=300&height=300&aspect=true",
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.52, 
+          "Memoria interna": "32 GB",
+          "Cámara trasera principal": "13 Mpx",
+          "Cámara frontal principal": "5 Mpx"
+         }
+      },
+      {
+        "id": 13,
+        "nombre": "Iphone 11",
+        "director": "Iphone",
+        "precio": 269999,
+        "imagen": "https://images.fravega.com/f300/64d84087ac1f0add588c33d03f391d5d.jpg.webp",
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.1, 
+          "Memoria interna": "128 GB",
+          "Cámara trasera principal": "12 Mpx",
+          "Cámara frontal principal": "12 Mpx"
+         }
+      },
+      {
+        "id": 14,
+        "nombre": "Iphone 13",
+        "director": "Iphone",
+        "precio": 607058,
+        "imagen": "https://www.apple.com/v/iphone-13-pro/f/images/overview/design/ceramic_shield_1_static__ci68bor3yn6u_large.jpg",
+        "caracteristicas":{
+          "Tamaño de la pantalla": 6.5, 
+          "Memoria interna": "128 GB",
+          "Cámara trasera principal": "12 Mpx",
+          "Cámara frontal principal": "12 Mpx"
+         }
+      },
+      {
+        "id": 15,
+        "nombre": "Iphone SE",
+        "director": "Iphone",
+        "precio": 290940,
+        "imagen": "https://www.apple.com/v/iphone-se/h/images/overview/display/retina_hd_1__bbscnm8poyea_large.jpg",
+        "caracteristicas":{
+          "Tamaño de la pantalla": 4.7, 
+          "Memoria interna": "64 GB",
+          "Cámara trasera principal": "12 Mpx",
+          "Cámara frontal principal": "7 Mpx"
+         }
+      }
+   
+    ]
+    
+  }
