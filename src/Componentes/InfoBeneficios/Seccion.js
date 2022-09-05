@@ -2,6 +2,7 @@ import React from "react";
 import './infoBeneficios.css'
 
 
+
 const Seccion = ({data} ) => {
 
   const {titulo, descripcion, icono} = data;
