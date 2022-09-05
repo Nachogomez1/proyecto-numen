@@ -1,4 +1,5 @@
 import React from "react";
+import './infoBeneficios.css'
 
 
 const Seccion = ({data} ) => {

@@ -1,6 +1,7 @@
 
 import React from 'react'
 import Seccion from './Seccion'
+import './infoBeneficios.css'
 
 
 const INFO =[
