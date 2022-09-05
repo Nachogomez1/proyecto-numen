@@ -2,9 +2,11 @@ import React, {}  from 'react';
 import Button from './Button';
 
 const title = ["Agregar","Comprar","Confirmar","Ingresar"];
+const titleCard = ["Celulares","Accesorios","Samsung","Motorola"];
 
 
-const Card = () => {
+
+const Card = (props) => {
     return (
         <figure style= {{
             border: "solid black 2px",
@@ -15,9 +17,10 @@ const Card = () => {
             flexDirection:"column",
             justifyContent:"center",
             borderRadius: ".7rem",
+            background:"blue",
         }}>
             <figcaption>
-                <h2> Celulares</h2>
+                <h2>uuu</h2>
                 <p> Celulares Economicos</p>
             </figcaption>
             <Button titulo={title}/>
