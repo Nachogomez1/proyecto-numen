@@ -10,6 +10,7 @@ import Carrousel from './Componentes/Carrousel'
 import Banner3 from './Componentes/Banner3/Banner3'
 import InfoBeneficios from './Componentes/InfoBeneficios/InfoBeneficios'
 import Card from './Componentes/Card/Card';
+import ShoppingCart from './Componentes/ShoppingCart/ShoppingCart';
 
 
 function App() {
@@ -18,24 +19,12 @@ function App() {
     <>
       <div>
         <Header />
-      </div>
-
-      <div>
         <Banner3 />
-      </div>
-
-      <div>
         <InfoBeneficios />
-      </div>
-
-      <div>
         <Carrousel />
-      </div>
-
-       
-     
-      <div>
         <Footer />
+
+        <ShoppingCart />
       </div>
 
     </>
