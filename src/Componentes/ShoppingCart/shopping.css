@@ -1,0 +1,26 @@
+
+.boxProduct {
+    padding: 20px;
+    border-radius: 25%;
+    border: 10px;
+    background-color: black;
+    color: rgb(209, 57, 102);
+    border: 1px solid #C00;
+    text-align: center;
+    
+  }
+  
+  .boxCarrito{
+    padding: 20px;
+    background-color: rgb(209, 57, 102) ;
+    color: black;
+  }
+  
+  .grid-responsive{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 30px;
+    border-radius: 10px;
+  
+  }
