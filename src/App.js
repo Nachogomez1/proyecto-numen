@@ -9,6 +9,7 @@ import Footer from './Componentes/Footer/Footer'
 import Carrousel from './Componentes/Carrousel'
 import Banner3 from './Componentes/Banner3/Banner3'
 import InfoBeneficios from './Componentes/InfoBeneficios/InfoBeneficios'
+import Card from './Componentes/Card/Card';
 
 
 function App() {
@@ -31,6 +32,8 @@ function App() {
         <Carrousel />
       </div>
 
+       
+     
       <div>
         <Footer />
       </div>
