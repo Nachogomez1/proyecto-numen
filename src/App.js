@@ -23,7 +23,6 @@ function App() {
         <InfoBeneficios />
         <Carrousel />
         <Footer />
-
         <ShoppingCart />
       </div>
 
