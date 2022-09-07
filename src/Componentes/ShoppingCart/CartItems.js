@@ -9,8 +9,8 @@ const CartItems = ({data, deleteFromCart}) => {
     <div className='boxCarrito'> 
         <h4> {nombre} </h4>
         <h5> $ {precio} x {quantity} = $ {precio * quantity} </h5>
-        <button onClick={()=> deleteFromCart(id)}> Eliminar uno</button>
-        <button onClick={()=> deleteFromCart(id, true)} > Eliminar todos</button>
+        <button onClick={()=> deleteFromCart(id)} className="deleteButtom"> Eliminar uno</button>
+        <button onClick={()=> deleteFromCart(id, true)} className="deleteAllButtom"> Eliminar todos</button>
 
 
     </div>
