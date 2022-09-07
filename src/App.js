@@ -20,11 +20,11 @@ function App() {
       <div>
         <Header />
         <Banner3 />
-        <InfoBeneficios />
+        <ShoppingCart />
         <Carrousel />
+        <InfoBeneficios />
         <Footer />
 
-        <ShoppingCart />
       </div>
 
     </>
