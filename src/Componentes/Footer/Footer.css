@@ -10,7 +10,7 @@
   
   .Footer .grupo-1{
     width: 100%;
-    max-width: 1600px;
+    max-width: auto;
     display: grid;
     grid-template-columns: repeat(5,1fr);
     grid-gap: 10px;
@@ -69,9 +69,9 @@
 
   /* ________________---RESPONSIVE---________________*/
 
-  @media screen and (max-width:800px){
+  @media screen and (max-width:900px){
     .Footer .grupo-1{
-        width: 90%;
+        width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:30px;
         padding: 35px 0px;

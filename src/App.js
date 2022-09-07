@@ -11,6 +11,7 @@ import Banner3 from './Componentes/Banner3/Banner3'
 import InfoBeneficios from './Componentes/InfoBeneficios/InfoBeneficios'
 import Card from './Componentes/Card/Card';
 import ShoppingCart from './Componentes/ShoppingCart/ShoppingCart';
+import Rutas from './Componentes/Rutas/Rutas';
 
 
 function App() {
@@ -19,11 +20,14 @@ function App() {
     <>
       <div>
         <Header />
+        <Rutas/>
         <Banner3 />
-        <InfoBeneficios />
+        <ShoppingCart />
         <Carrousel />
+        <InfoBeneficios />
         <Footer />
         <ShoppingCart />
+
       </div>
 
     </>
