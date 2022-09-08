@@ -25,6 +25,7 @@ function App() {
           <Carrousel />
           <InfoBeneficios />
           <Footer />
+
       </div>
     </Rutas>
       
