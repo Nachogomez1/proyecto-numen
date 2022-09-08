@@ -18,23 +18,16 @@ function App() {
   return (
 
     <>
-      <div>
-      <Rutas/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <Carrousel/>     
-        
-        {/* <Banner3 />
-        <ShoppingCart />
-        <Carrousel />
-        <InfoBeneficios />
-        <Footer />
-        <ShoppingCart /> */}
-
+    <Rutas>
+        <div> 
+          <Banner3 />
+          <ShoppingCart />
+          <Carrousel />
+          <InfoBeneficios />
+          <Footer />
       </div>
+    </Rutas>
+      
 
     </>
 
