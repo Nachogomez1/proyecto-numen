@@ -20,7 +20,12 @@ function App() {
     <>
       <div>
       <Rutas/>
-        
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <Carrousel/>     
         
         {/* <Banner3 />
         <ShoppingCart />
