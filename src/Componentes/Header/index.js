@@ -1,6 +1,6 @@
 import React from 'react'
 import "./index.css"
-import logo from "../../assets/logo/logo.jpg";
+import Logo from "../../assets/logo/Logo Header.png";
 import { Link, NavLink } from 'react-router-dom';
 import Carrousel from '../Carrousel';
 
@@ -16,6 +16,9 @@ const Header = () => {
             </NavLink >                  
             <nav>                
                 <ul>
+                    <li>
+                        <img src={Logo} alt="logo" prop="logo"></img>
+                    </li>
                     <li>
                         <NavLink to="/Celulares"activeClassname="active">Celulares</NavLink>
                     </li>
@@ -36,9 +39,8 @@ const Header = () => {
             <box-icon name="cart"></box-icon>
             <span className="item_total">0</span>
             </div> */}
-
             </nav>
-
+                
         </header>
         
     )
