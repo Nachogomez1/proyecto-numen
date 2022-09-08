@@ -4,6 +4,7 @@ import Instagram from '../../assets/Footer/Instagram.png';
 import Twitter from '../../assets/Footer/Twitter.png';
 import Logo from '../../assets/Footer/Logo Alternativo 2.png';
 import "./Footer.css";
+import { Link, NavLink } from 'react-router-dom';
 
 function Footer (){
     return(
@@ -16,27 +17,49 @@ function Footer (){
                     <h3><b>SOBRE NOSOTROS</b></h3>
                     <p><b>Somos una empresa de tecnologías, nuestra mision es asesorar correctamente a nuestro clientes segun sus necesidades.</b></p>
                 </div>
-                <div className='box'>
+                <ul className='box'>
                     <h3><b>INFORMACION UTIL</b></h3>
-                    <p className='resaltado'>Preguntas frecuentes</p>
-                    <p className='resaltado'>Formas de pago</p>
-                    <p className='resaltado'>Boton de arrepentimiento</p>
-                    <p className='resaltado'>Nuestro Whatsapp</p>
-                </div>
-                <div className='box'>
-                <h3><b>LO MAS BUSCADO</b></h3>
-                <p className='resaltado'>Celulares</p>
-                <p className='resaltado'>Cargadores</p>
-                <p className='resaltado'>Fundas</p>
-                <p className='resaltado'>Auriculares</p>
-                </div>
+                    <li>
+                        <NavLink to="" className="links"><p className='resaltado'>Preguntas frecuentes</p></NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="" className="links"><p className='resaltado'>Formas de pago</p></NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="" className="links"><p className='resaltado'>Boton de arrepentimiento</p></NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/" className="links"><p className='resaltado'>Volver al inicio</p></NavLink>
+                    </li>
+                </ul>
+                <ul className='box'>
+                    <h3><b>LO MAS BUSCADO</b></h3>
+                    <li>
+                        <NavLink to="/Celulares" className="links"><p className='resaltado'>Celulares</p></NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="" className="links"><p className='resaltado'>Cargadores</p></NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="" className="links"><p className='resaltado'>Fundas</p></NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="" className="links"><p className='resaltado'>Auriculares</p></NavLink>
+                    </li>
+                </ul>
                 <div className="box">
                     <h3><b>SEGUINOS</b></h3>
-                        <div className="redSocial">
-                            <img src={Facebook} alt="facebook" prop="facebook" className="contactImg"></img>
-                            <img src={Instagram} alt="instagram" prop="instagram" className="contactImg"></img>
-                            <img src={Twitter} alt="twitter" prop="twitter" className="contactImg"></img>
-                        </div>
+                        <ul className="redSocial">
+                            <li>
+                                <NavLink to=""><img src={Facebook} alt="facebook" prop="facebook" className="contactImg"></img></NavLink>
+                            </li>
+                            <li>
+                                <NavLink to=""><img src={Instagram} alt="instagram" prop="instagram" className="contactImg"></img></NavLink>
+                            </li>
+                            <li>
+                                <NavLink to=""><img src={Twitter} alt="twitter" prop="twitter" className="contactImg"></img></NavLink>
+                            </li> 
+                        </ul>
                 </div>
             </div>
             <div className="grupo-2">

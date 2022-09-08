@@ -77,3 +77,9 @@
         padding: 35px 0px;
     }
 }
+
+  /* ________________---NAVLINK---________________*/
+
+  .links{
+    text-transform: capitalize;
+  }
