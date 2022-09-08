@@ -25,7 +25,8 @@ function App() {
       <br/>
       <br/>
       <br/>
-      <Carrousel/>     
+      <br/>
+         
         
         {/* <Banner3 />
         <ShoppingCart />

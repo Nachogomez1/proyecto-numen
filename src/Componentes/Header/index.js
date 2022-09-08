@@ -8,7 +8,12 @@ import Carrousel from '../Carrousel';
 const Header = () => {
     return (
         
-        <header>                       
+        <header>     
+            <NavLink  to="/"activeClassname="active">
+                <div className="logo">
+                    <img src={logo} alt="" width="100"/>
+                </div>
+            </NavLink >                  
             <nav>                
                 <ul>
                     <li>
