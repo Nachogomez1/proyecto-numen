@@ -1,0 +1,23 @@
+import Carrousel from "../Carrousel"
+import React from "react";
+import ShoppingCart from "../ShoppingCart/ShoppingCart";
+import Footer from "../Footer/Footer";
+
+
+
+const Celulares = () => {
+  return (
+    <div>
+      <br/>
+      <br/>
+      <br/>
+      <ShoppingCart/>
+      <br/>
+      <Footer/>
+    </div>
+
+
+  )
+}
+
+export default Celulares
