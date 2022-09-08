@@ -8,25 +8,23 @@ import Carrousel from '../Carrousel';
 const Header = () => {
     return (
         
-        <header>
-                       
-            <nav>
-                
+        <header>                       
+            <nav>                
                 <ul>
                     <li>
                         <NavLink to="/Celulares"activeClassname="active">Celulares</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Tecnologia">Tecnologia</NavLink>
+                        <NavLink to="/Tecnologia"activeClassname="active">Tecnologia</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Varios">Varios</NavLink>
+                        <NavLink to="/Varios"activeClassname="active">Varios</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Ofertas">Ofertas</NavLink>
+                        <NavLink to="/Ofertas"activeClassname="active">Ofertas</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Nosotros">Nosotros</NavLink>
+                        <NavLink to="/Nosotros"activeClassname="active">Nosotros</NavLink>
                     </li>
                 </ul>
                 {/* <div className="cart">

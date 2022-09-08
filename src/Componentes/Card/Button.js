@@ -18,6 +18,8 @@ const Button = (props) => {
             <h1 style={{
                 fontSize: "1.5rem",
             }}>{props.titulo[3]}</h1>
+            
+
         </button>
     )
 }
