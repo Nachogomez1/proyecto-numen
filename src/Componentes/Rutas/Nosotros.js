@@ -1,8 +1,8 @@
 import React from "react";
-import Card from "../Card/Card";
+// import Card from "../Card/Card";
 import InfoBeneficios from "../InfoBeneficios/InfoBeneficios";
-import Seccion from "../InfoBeneficios/Seccion";
-import Footer from "../Footer/Footer";
+// import Seccion from "../InfoBeneficios/Seccion";
+// import Footer from "../Footer/Footer";
 
 
 
@@ -15,9 +15,14 @@ const Nosotros = () => {
       <br/>
       <br/>
       <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+
       <InfoBeneficios/>
       <br/>
-      <Footer/>
     </div>
   )
 }

@@ -5,7 +5,7 @@
 header {
   width: 100%;
   min-height: 100px;
-  max-width: 1530px;
+  max-width: Auto;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
