@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../Card/Card";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 
 
 
@@ -14,9 +14,10 @@ const Tecnologia = () => {
       <br/>
       <br/>
       <br/>
+      <br/>
+      <br/>
       <Card/>
       <br/>
-      <Footer/>
     </div>
   )
 }

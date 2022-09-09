@@ -15,23 +15,20 @@ import Banner3 from "../Banner3/Banner3";
 import ShoppingCart from "../ShoppingCart/ShoppingCart";
 
 
-
-
 const Rutas = () => {
     return (
         <Router>
-            <Header/>
+            <Header></Header>
             <Routes>
-                <Route path="/" element={[<Header/>, <Banner3/>,<Carrousel/>, <ShoppingCart/>, <InfoBeneficios/>, <Footer/> ]} />
+                <Route path="/" element={[<Banner3/>,<Carrousel/>, <ShoppingCart/>, <InfoBeneficios/>]} />
                 <Route path="/Celulares"  element={<Celulares/>} />
                 <Route path="/Tecnologia" element={<Tecnologia/>} />    
                 <Route path="/Nosotros" element={<Nosotros/>} />      
                 <Route path="/Varios" element={<Varios/>} />   
-                <Route path="/Ofertas" element={<Ofertas/>} /> 
-                <Route path="/Footer" element={<Footer/>} />   
-                <Route path="/Beneficios" element={<InfoBeneficios/>} />                       
+                <Route path="/Ofertas" element={<Ofertas/>} />    
+                <Route path="/Beneficios" element={<InfoBeneficios/>} />                        
             </Routes>
-
+            <Footer></Footer>
         </Router>
     )
 }
