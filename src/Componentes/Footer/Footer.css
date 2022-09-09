@@ -45,7 +45,7 @@
   /* ________________---RED SOCIAL---________________*/
   
   .Footer .grupo-1 .redSocial img{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     text-decoration: none;
     width: 50px;
@@ -82,4 +82,5 @@
 
   .links{
     text-transform: capitalize;
+    color: white;
   }

@@ -1,7 +1,7 @@
-import Carrousel from "../Carrousel"
+// import Carrousel from "../Carrousel"
 import React from "react";
 import ShoppingCart from "../ShoppingCart/ShoppingCart";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 
 
 
@@ -13,7 +13,6 @@ const Celulares = () => {
       <br/>
       <ShoppingCart/>
       <br/>
-      <Footer/>
     </div>
 
 

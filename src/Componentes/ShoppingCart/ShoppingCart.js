@@ -35,7 +35,7 @@ const ShoppingCart =() =>{
                 products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
             }
         </article>
-
+        
         <h3> Cargadores</h3>
         <article className='boxProduct grid-responsive'>
             {

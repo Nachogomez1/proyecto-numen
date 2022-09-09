@@ -20,6 +20,8 @@ function App() {
     <>
     <Rutas>
         <div> 
+          <Rutas/>
+          <Header/>
           <Banner3 />
           <ShoppingCart />
           <Carrousel />
