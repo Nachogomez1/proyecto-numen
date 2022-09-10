@@ -16,12 +16,9 @@ const Header = () => {
             </NavLink >                  
             <nav>                
                 <ul>
-<<<<<<< HEAD
                     {/* <li>
                         <img src={Logo} alt="logo" prop="logo"></img>
                     </li> */}
-=======
->>>>>>> 1513f849f7e59eebe7953784cce0559020c9d95d
                     <li>
                         <NavLink to="/Celulares"activeClassname="active">Celulares</NavLink>
                     </li>
