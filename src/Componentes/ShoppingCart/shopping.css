@@ -1,0 +1,79 @@
+
+.boxProduct {
+    padding: 0px;
+    border-radius: 0px;
+    background-color: rgba(234, 130, 234, 0.142);
+    color: rgb(0, 0, 0);
+    border: solid black 1px;
+    text-align: center;
+    height: 280px;
+    border-radius:10px ;
+  
+  }
+  
+  .addButtom{
+    color: white;
+    background:rgb(63, 61, 61);
+    padding: 8px;
+    border-radius: 0.5rem;
+    font-size: 17px;
+    text-transform: uppercase;
+    width: 70%;
+    margin: 0 auto;
+    height: 10%;
+
+  }
+
+  .deleteButtom{
+    color: rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 10%;
+    margin: 0 auto;
+    height: 10%;
+
+  }
+
+  .deleteAllButtom{
+    color: rgb(0, 0, 0);
+    background:rgb(207, 93, 93);
+    padding: 3px;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 10%;
+    margin: 0 auto;
+    height: 10%;
+
+  }
+
+  .cleanButtom{
+    color: rgb(0, 0, 0);
+    background:rgb(255, 255, 255);
+    padding: 3px;
+    border-radius: 0.5rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 10%;
+    margin: 0 auto;
+    height: 10%;
+
+  }
+
+  .boxCarrito{
+    padding: 20px;
+    background-color: rgba(234, 130, 234, 0.142) ;
+    color: black;
+  }
+  
+  .grid-responsive{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 30px; 
+    border: none;
+    background-color: white;
+  }
