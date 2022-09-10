@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import SliderContent from "./SliderContent";
-import Dots from "./Dots";
-import Arrows from "./Arrows";
-import sliderImage from "./sliderImage";
+import SliderContent from "../../Componentes/Carrousel/SliderContent";
+import Dots from "../../Componentes/Carrousel/Dots";
+import Arrows from "../../Componentes/Carrousel/Arrows";
+import sliderImage from "../../Componentes/Carrousel/sliderImage";
 import "./carrousel.css";
 
 const len = sliderImage.length - 1;
