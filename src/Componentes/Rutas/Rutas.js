@@ -13,7 +13,7 @@ import InfoBeneficios from "../InfoBeneficios/InfoBeneficios";
 import Carrousel from "../Carrousel";
 import Banner3 from "../Banner3/Banner3";
 import ShoppingCart from "../ShoppingCart/ShoppingCart";
-
+import Faq from "./Faq";
 
 const Rutas = () => {
     return (
@@ -26,7 +26,8 @@ const Rutas = () => {
                 <Route path="/Nosotros" element={<Nosotros/>} />      
                 <Route path="/Varios" element={<Varios/>} />   
                 <Route path="/Ofertas" element={<Ofertas/>} />    
-                <Route path="/Beneficios" element={<InfoBeneficios/>} />                        
+                <Route path="/Beneficios" element={<InfoBeneficios/>} /> 
+                <Route path="/Preguntas-frecuentes" element={<Faq/>} /> 
             </Routes>
             <Footer></Footer>
         </Router>
