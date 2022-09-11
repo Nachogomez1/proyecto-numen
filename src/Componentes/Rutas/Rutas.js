@@ -14,13 +14,13 @@ import Carrousel from "../Carrousel/Carrousel";
 import Banner3 from "../Banner3/Banner3";
 import ShoppingCart from "../ShoppingCart/ShoppingCart";
 import Faq from "./Faq";
-
+import Banner from "./Banner";
 const Rutas = () => {
     return (
         <Router>
             <Header></Header>
             <Routes>
-                <Route path="/" element={[<Banner3/>,<Carrousel/>, <ShoppingCart/>, <InfoBeneficios/>]} />
+                <Route path="/" element={[<Banner3/>, <Carrousel/>, <ShoppingCart/>,<Banner/>, <InfoBeneficios/>]} />
                 <Route path="/Celulares"  element={<Celulares/>} />
                 <Route path="/Tecnologia" element={<Tecnologia/>} />    
                 <Route path="/Nosotros" element={<Nosotros/>} />      
@@ -28,6 +28,7 @@ const Rutas = () => {
                 <Route path="/Ofertas" element={<Ofertas/>} />    
                 <Route path="/Beneficios" element={<InfoBeneficios/>} /> 
                 <Route path="/Preguntas-frecuentes" element={<Faq/>} /> 
+                <Route path="/Banner" element={<Banner/>} />
             </Routes>
             <Footer></Footer>
         </Router>
