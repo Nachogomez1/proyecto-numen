@@ -83,6 +83,7 @@
   .links{
     text-transform: capitalize;
     color: white;
+    text-decoration: none;
   }
 
   /* ________________---FAQ---________________*/
@@ -120,7 +121,6 @@
       width: 100%;    }
   }
 
-  /* ________________---REGRET BUTTON---________________*/
 
 
 

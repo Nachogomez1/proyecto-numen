@@ -22,13 +22,7 @@ function App()  {
   return (
 
         <>
-      <div>
-        <Header />
-      </div>
-      
-      <div>
-        <Banner />
-      </div>
+
     
     <Rutas>
         <div> 
@@ -39,7 +33,7 @@ function App()  {
           <Carrousel />
           <InfoBeneficios />
           <Footer />
-
+          <Banner />
       </div>
  
       
