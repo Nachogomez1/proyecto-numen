@@ -1,14 +1,14 @@
-import Uno from "../assets/Uno.jpg";
-import Dos from "../assets/Dos.jpg";
-import Tres from "../assets/Tres.jpg";
-import Cuatro from "../assets/Cuatro.jpg";
-import Cinco from "../assets/Cinco.jpg";
-import Seis from "../assets/Seis.jpg";
-import Siete from "../assets/Siete.jpg";
-import Ocho from "../assets/Ocho.jpg";
-import Nueve from "../assets/Nueve.jpg";
-import Diez from "../assets/Diez.jpg";
-import Once from "../assets/Once.jpg";
+import Uno from "../../assets/Carrousel/Uno.jpg";
+import Dos from "../../assets/Carrousel/Dos.jpg";
+import Tres from "../../assets/Carrousel/Tres.jpg";
+import Cuatro from "../../assets/Carrousel/Cuatro.jpg";
+import Cinco from "../../assets/Carrousel/Cinco.jpg";
+import Seis from "../../assets/Carrousel/Seis.jpg";
+import Siete from "../../assets/Carrousel/Siete.jpg";
+import Ocho from "../../assets/Carrousel/Ocho.jpg";
+import Nueve from "../../assets/Carrousel/Nueve.jpg";
+import Diez from "../../assets/Carrousel/Diez.jpg";
+import Once from "../../assets/Carrousel/Once.jpg";
 
 export default [
   {

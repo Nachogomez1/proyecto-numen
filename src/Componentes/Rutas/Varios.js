@@ -1,6 +1,6 @@
-import Carrousel from "../Carrousel"
+import Carrousel from "../Carrousel/Carrousel"
 import React from "react";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 
 
 
@@ -17,7 +17,6 @@ const Varios = () => {
       <br/>
       <Carrousel/>
       <br/>
-      <Footer/>
     </div>
               
     

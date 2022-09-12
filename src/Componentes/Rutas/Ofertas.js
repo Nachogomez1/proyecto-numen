@@ -1,6 +1,7 @@
 
 import React from "react";
 import Banner3 from "../Banner3/Banner3";
+// import Footer from "../Footer/Footer";
 
 
 
@@ -11,10 +12,7 @@ const Ofertas = () => {
       <br/>
       <br/>
       <br/>
-      <br/>
-      <br/>
-      <Banner3/>
-      
+      <Banner3/>      
     </div>
   )
 }
