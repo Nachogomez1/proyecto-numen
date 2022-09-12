@@ -1,6 +1,7 @@
 .cases{
     background-image:url("https://cdn.pixabay.com/photo/2016/05/27/08/51/mobile-phone-1419275_960_720.jpg" );
     background-size: 100%;
+    background-repeat: no-repeat;
     
   }
 
@@ -10,7 +11,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     color: transparent;
-    font-size: 20vh;
+    font-size: 10vw;
      -moz-text-stroke-width: 2px;
     -webkit-text-stroke-width: 2px;
     -moz-text-stroke-color: #19020f;
@@ -30,4 +31,10 @@
     100%{
       text-shadow: transparent;
     }
+  }
+
+  @media screen and (min-widht: 768px) 
+  {
+    
+   
   }
