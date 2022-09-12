@@ -2,24 +2,12 @@ import { TYPES } from "./ShoppingActions";
 
 export const shoppingInitialState={
     products:[
-        {
-            id:1, nombre: "Producto A", precio: 20000
-        },
-        {
-            id:2, nombre: "Producto B", precio: 10000
-        },
-        {
-            id:3, nombre: "Producto C", precio: 15000
-        },
-        {
-            id:4, nombre: "Producto D", precio: 20000
-        },
-        {
-            id:5, nombre: "Producto E", precio: 25000
-        },
-        {
-            id:6, nombre: "Producto F", precio: 30000
-        }
+        {id:1, nombre: "Producto 1", precio: 10000},
+        {id:2, nombre: "Producto 2", precio: 15000},
+        {id:3, nombre: "Producto 3", precio: 20000},
+        {id:4, nombre: "Producto 4", precio: 25000},
+        {id:5, nombre: "Producto 5", precio: 30000},
+        {id:6, nombre: "Producto 6", precio: 35000}
     ],
     cart:[]
 };

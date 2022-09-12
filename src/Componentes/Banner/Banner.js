@@ -20,11 +20,8 @@ const Banner = () => {
               <div className="carousel-item" style={{backgroundImage:`url("https://www.wallpaperuse.com/wallp/13-135058_m.jpg")` }} bs-interval="2000">
               </div>
               <div className="carousel-item" style={{backgroundImage: `url(${Uno})` }} bs-interval="5000">
-              </div>
-              
+              </div>     
             </div>
-          
-     
         </div>
     </div>    
         
