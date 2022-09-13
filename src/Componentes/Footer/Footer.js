@@ -26,8 +26,7 @@ function Footer (){
                 <ul className='box'>
                     <h3><b>LO MAS BUSCADO</b></h3>
                     <li><Link to="/Celulares" className="links"><p className='resaltado'>Celulares</p></Link></li>
-                    <li><Link to="/Celulares" className="links"><p className='resaltado'>Cargadores</p></Link></li>
-                    <li><Link to="/Celulares" className="links"><p className='resaltado'>Fundas</p></Link></li>
+                    <li><Link to="/Celulares" className="links"><p className='resaltado'>Fundas y cargadores</p></Link></li>
                     <li><Link to="/Celulares" className="links"><p className='resaltado'>Auriculares</p></Link></li>
                 </ul>
                 <div className="box">
