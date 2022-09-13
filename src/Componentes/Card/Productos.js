@@ -386,7 +386,7 @@ export const ProductosLista = () => {
                     <div className='producto_footer'>
                         <h1>{Images[17].title}</h1>
                         <p> {Images[17].marca} </p>
-                        <p className='price'> $ 125.000 </p>
+                        <p className='price'> $ 128.000 </p>
                     </div>
                     <div className='buttom'>
                         <button className='btn'>
