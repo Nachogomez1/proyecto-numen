@@ -1,6 +1,7 @@
 import { Carousel } from 'bootstrap';
 import React, { } from 'react';
 import Button from './Button';
+import CardImage from './CardImage';
 
 const title = ["Agregar", "Comprar", "Confirmar", "Ingresar"];
 const titleCard = ["Celulares", "Accesorios", "Samsung", "Motorola"];
@@ -22,12 +23,14 @@ const Card = (props) => {
             
             
         }}>
+            {/* <CardImage/> */}
             <figcaption>
                 <h2>Celulares</h2>
                 <p> Celulares Economicos</p>
             </figcaption>
             <br/>
             <Button titulo={title} />
+            
            
         </figure>
     )
