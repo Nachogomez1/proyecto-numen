@@ -1,13 +1,17 @@
 
+
 .boxProduct {
-    padding: 0px;
+    padding: 1rem;
+    margin: 1rem;
     border-radius: 0px;
     background-color: #ca6de6;
     color: rgb(0, 0, 0);
-    border: solid black 1px;
+    border: solid black 2px;
     text-align: center;
     height: 280px;
     border-radius:10px ;
+  
+    
   
   }
   
@@ -66,15 +70,23 @@
 
   .boxCarrito{
     padding: 20px;
+    margin: 30px;
     background-color: rgba(234, 130, 234, 0.142) ;
     color: black;
   }
   
-  .grid-responsive{
+.grid-responsive{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 1rem;
+    grid-auto-rows: 22rem;
+    padding: 2%;
     margin: 30px; 
     border: none;
     background-color: white;
+  
+    
   }
+
+
+  

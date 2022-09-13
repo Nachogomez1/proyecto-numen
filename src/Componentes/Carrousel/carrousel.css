@@ -11,7 +11,7 @@
 .slider-container {
   height: 70vh;
   width: 100%;
-  position: relative;
+  position: static;
   margin: auto;
   overflow: hidden;
 }
