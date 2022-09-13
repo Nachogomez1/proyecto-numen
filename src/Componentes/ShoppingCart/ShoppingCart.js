@@ -29,6 +29,7 @@ const ShoppingCart =() =>{
 
     return(
     <div>
+        
         <h3>Celulares</h3>
         <article className='boxProduct grid-responsive'>
             {

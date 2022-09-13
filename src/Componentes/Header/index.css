@@ -11,7 +11,7 @@ header {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  position: fixed;
+  position: relative; /*cambie de fixed a relative para que no se mueva */
   box-sizing: border-box;
   background-color: white;
   box-shadow: 0 5px 10px #BC37E5;

@@ -1,9 +1,12 @@
 
 .grid-responsive{
     display: grid;
+    grid-template-rows: 22rem;
+    grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     margin: 30px;
+    
   
   }
   
