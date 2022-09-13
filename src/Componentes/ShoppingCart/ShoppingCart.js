@@ -36,6 +36,7 @@ const ShoppingCart =() =>{
                 products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
             }
         </article>
+<<<<<<< HEAD
        
         <h3> Cargadores</h3>
         <article className='boxProduct grid-responsive'>
@@ -45,6 +46,10 @@ const ShoppingCart =() =>{
         </article>
 
         <h3>Fundas</h3>
+=======
+        
+        <h3>Fundas y cargadores</h3>
+>>>>>>> 561fc26478883a25cc817558acd6dae0196b5804
         <article className='boxProduct grid-responsive'>
             {
                 products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
