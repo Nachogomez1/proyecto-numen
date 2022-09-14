@@ -9,10 +9,10 @@ header {
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  position: fixed;
+  position:relative;
   box-sizing: border-box;
   background-color: white;
-  box-shadow: 0 5px 10px #08a05ca4;
+  box-shadow: 0 5px 10px #bb2483;
 }
 
 a {
@@ -22,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #08a05c
+  color: #bb2483
 }
 
 li {
