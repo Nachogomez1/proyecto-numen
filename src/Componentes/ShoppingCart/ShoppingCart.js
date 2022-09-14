@@ -37,20 +37,20 @@ const ShoppingCart =() =>{
             }
         </article>
         
-        <h3>Fundas y cargadores</h3>
-        <article className='boxProduct grid-responsive'>
-            {
-                products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
-            }
-        </article>
-
         <h3> Auriculares</h3>
         <article className='boxProduct grid-responsive'>
             {
                 products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
             }
         </article>
-
+        
+        <h3>Fundas y cargadores</h3>
+        <article className='boxProduct grid-responsive'>
+            {
+                products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
+            }
+        </article>
+        
         <h3>Carrito</h3>
 
         <article className='boxCarrito'>
