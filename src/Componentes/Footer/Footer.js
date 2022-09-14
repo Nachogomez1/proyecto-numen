@@ -34,6 +34,7 @@ function Footer (){
                 </ul>
                 <ul className='box'>
                     <h3><b>LO MAS BUSCADO</b></h3>
+
                     <li>
                         <NavLink to="/Celulares" className="links"><p className='resaltado'>Celulares</p></NavLink>
                     </li>
@@ -46,6 +47,9 @@ function Footer (){
                     <li>
                         <NavLink to="/" className="links"><p className='resaltado'>Auriculares</p></NavLink>
                     </li>
+
+                    <li><Link to="/Celulares" className="links"><p className='resaltado'>Celulares</p></Link></li>
+
                 </ul>
                 <div className="box">
                     <h3><b>SEGUINOS</b></h3>

@@ -1,10 +1,20 @@
 
 .grid-responsive{
     display: grid;
+
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     margin: 30px;
   
+
+    grid-template-rows: 10rem;
+    grid-auto-flow: dense;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 30px;
+    align-items: center;
+ 
+
   }
   
   .benef {

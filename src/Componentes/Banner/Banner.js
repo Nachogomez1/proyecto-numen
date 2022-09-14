@@ -1,7 +1,5 @@
 import React from 'react';
 import Uno from "../../assets/Banner/LogoA.png";
-import Dos from "../../assets/Banner/Banner Wallpaper.jpg";
-import Tres from "../../assets/Banner/Cielo Wallpaper.jpg";
 import './Banner.css';
 
 

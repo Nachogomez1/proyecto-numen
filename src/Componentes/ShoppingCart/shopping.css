@@ -1,4 +1,5 @@
 
+
 .boxProduct {
     padding: 0px;
     border-radius: 0px;
@@ -11,6 +12,7 @@
   
   }
   
+
   .addButtom{
     color: white;
     background:rgb(63, 61, 61);
@@ -63,6 +65,18 @@
 
   }
 
+.boxProduct {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 0px;
+    background-color: #ca6de6;
+    color: rgb(0, 0, 0);
+    border: solid black 2px;
+    text-align: center;
+    height: 280px;
+    border-radius:10px ;
+  }
+  
   .boxCarrito{
     padding: 20px;
     background-color: rgba(234, 130, 234, 0.142) ;
@@ -71,9 +85,22 @@
   
   .grid-responsive{
     display: grid;
+
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     margin: 30px; 
     border: none;
     background-color: white;
+
+    margin-top: 0.5rem;
+    margin-bottom:1rem;
+    gap: 1rem;
+    border: 10px;
+    background-color: white;
+    padding: 5rem 1rem;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 3rem 2rem;
+    
+
   }
