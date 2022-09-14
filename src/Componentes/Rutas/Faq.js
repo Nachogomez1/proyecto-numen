@@ -8,8 +8,6 @@ const Faq = () => {
         <br/>
         <br/>
         <br/>
-        <br/>
-        <br/>
         <Faqs/>
         <br/>
         <InfoBeneficios/>

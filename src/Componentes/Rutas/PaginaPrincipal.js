@@ -8,9 +8,9 @@ function PaginaPrincipal() {
     return (
         <div>
             <Banner3/>
+            <Banner/>
             <Carrousel/>
             <ShppingCart/>
-            <Banner/>
             <InfoBeneficios/>
         </div>
     );
