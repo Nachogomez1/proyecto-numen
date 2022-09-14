@@ -1,11 +1,9 @@
-
-
 /*HEADER*/
 
 header {
   width: 100%;
   min-height: 100px;
-  max-width: Auto;
+  max-width: auto;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
@@ -46,6 +44,11 @@ header ul li a {
   font-size: small;
 }
 
+header .cart {
+  position: relative;
+  cursor: pointer;
+}
+
 header .cart box-icon {
   width: 45px;
   height: 45px;
@@ -53,18 +56,23 @@ header .cart box-icon {
 
 header .cart span {
   position: absolute;
-  top: -1.5rem;
-  right: 12.5rem;
-  width: 1.5rem;
-  height: 5.5rem;
-  
+  top: -1rem;
+  right: -0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: black;
   padding: 0rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
-  
+
+}
+
+@media only screen and (max-width: 600px){
+  header ul{
+    display: none;
+  }
 }
