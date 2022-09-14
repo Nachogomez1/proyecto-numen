@@ -3,6 +3,7 @@ import React from "react";
 import InfoBeneficios from "../InfoBeneficios/InfoBeneficios";
 // import Seccion from "../InfoBeneficios/Seccion";
 // import Footer from "../Footer/Footer";
+import CardImage from "../Card/CardImage";
 
 
 
@@ -10,19 +11,14 @@ import InfoBeneficios from "../InfoBeneficios/InfoBeneficios";
 const Nosotros = () => {
   return (
     <div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
 
-      <InfoBeneficios/>
-      <br/>
+      <InfoBeneficios />
+      <br />
     </div>
   )
 }

@@ -16,6 +16,12 @@ const Header = () => {
             </NavLink >                  
             <nav>                
                 <ul>
+
+                    {/* <li>
+                        <img src={Logo} alt="logo" prop="logo"></img>
+                    </li> */}
+
+
                     {/* <li>
                         <img src={Logo} alt="logo" prop="logo"></img>
                     </li> */}

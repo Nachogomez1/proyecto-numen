@@ -29,13 +29,40 @@ const ShoppingCart =() =>{
 
     return(
     <div>
+
+        <h3>Celulares</h3>
+
     <h3>Celulares</h3>
+
         <article className='boxProduct grid-responsive'>
             {
                 products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
             }
         </article>
         
+
+        <h3> Cargadores</h3>
+        <article className='boxProduct grid-responsive'>
+            {
+                products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
+            }
+        </article>
+
+        <h3>Fundas</h3>
+        <article className='boxProduct grid-responsive'>
+            {
+                products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
+            }
+        </article>
+
+        <h3> Auriculares</h3>
+        <article className='boxProduct grid-responsive'>
+            {
+                products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
+            }
+        </article>
+
+
         <h3>Carrito</h3>
 
         <article className='boxCarrito'>

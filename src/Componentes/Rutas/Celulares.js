@@ -2,6 +2,7 @@
 import React from "react";
 import ShoppingCart from "../ShoppingCart/ShoppingCart";
 // import Footer from "../Footer/Footer";
+import CardImage from "../Card/CardImage";
 
 
 
@@ -13,6 +14,7 @@ const Celulares = () => {
       <br/>
       <ShoppingCart/>
       <br/>
+     
     </div>
 
 

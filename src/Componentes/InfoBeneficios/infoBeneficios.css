@@ -1,6 +1,12 @@
 
 .grid-responsive{
     display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin: 30px;
+  
+
     grid-template-rows: 10rem;
     grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -8,12 +14,13 @@
     margin: 30px;
     align-items: center;
  
+
   }
   
   .benef {
     
     padding: 1rem;
-    color: rgb(239, 131, 239);
+    color: violet;
   
   }
   

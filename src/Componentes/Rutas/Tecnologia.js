@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../Card/Card";
+import { ProductosLista } from "../Card/Productos";
 // import Footer from "../Footer/Footer";
 
 
@@ -8,16 +9,7 @@ import Card from "../Card/Card";
 const Tecnologia = () => {
   return (
     <div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <Card/>
-      <br/>
+      <ProductosLista />
     </div>
   )
 }

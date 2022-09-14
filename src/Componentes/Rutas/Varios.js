@@ -1,4 +1,4 @@
-import Carrousel from "../Carrousel/Carrousel"
+import Carrousel from "../Carrousel"
 import React from "react";
 // import Footer from "../Footer/Footer";
 
