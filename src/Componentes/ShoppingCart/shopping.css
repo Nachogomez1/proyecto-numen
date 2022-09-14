@@ -1,30 +1,85 @@
+.tittleShop {
+  font-size: 5vw;
+  text-decoration-line: underline;
+  text-align: center;
+  animation-duration: 20s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 
+
+
+@keyframes slidein {
+  from {
+    margin-left: 70%;
+   
+  }
+
+  to {
+    margin-right: 70%;
+    
+  }
+}
+
+.tittleCart {
+  font-size: 5vw;
+  text-decoration-line: underline;
+  text-align: center;
+  animation: cambioColor 2s ;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cambioColor {
+  0% {
+    color: black;
+  }
+  50% {
+    color: #bb2483;
+  }
+  100%{
+    color: black;
+  }
+}
 
 .boxProduct {
-    padding: 0px;
-    border-radius: 0px;
-    background-color: rgba(234, 130, 234, 0.142);
-    color: rgb(0, 0, 0);
-    border: solid black 1px;
-    text-align: center;
-    height: 280px;
-    border-radius:10px ;
-  
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, 0.2);
+  border: 6px solid transparent;
   }
-  
+
+   .grid-responsive{
+    padding: 5rem 1rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+    gap: 3rem 2rem;
+    box-sizing: border-box;
+    }
 
   .addButtom{
-    color: white;
-    background:rgb(63, 61, 61);
+    color: rgb(171, 32, 136);
+    background:rgb(8, 8, 8);
     padding: 8px;
     border-radius: 0.5rem;
     font-size: 17px;
     text-transform: uppercase;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
-    height: 10%;
+    height: 15%;
 
   }
+
+  .addButtom:hover{
+   color: rgb(12, 10, 10);
+   background-color: rgb(171, 32, 136);
+   font-weight: bold;
+ 
+  }
+
 
   .deleteButtom{
     color: rgb(0, 0, 0);
@@ -53,54 +108,29 @@
   }
 
   .cleanButtom{
-    color: rgb(0, 0, 0);
-    background:rgb(255, 255, 255);
+    color: #ca6de6;
+    background:rgb(10, 10, 10);
     padding: 3px;
     border-radius: 0.5rem;
     font-size: 14px;
     text-transform: uppercase;
-    width: 10%;
+    font-weight: bold;
+    width: 12%;
     margin: 0 auto;
-    height: 10%;
+    height: 12%;
+
 
   }
 
-.boxProduct {
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 0px;
-    background-color: #ca6de6;
-    color: rgb(0, 0, 0);
-    border: solid black 2px;
-    text-align: center;
-    height: 280px;
-    border-radius:10px ;
-  }
-  
+
   .boxCarrito{
-    padding: 20px;
-    background-color: rgba(234, 130, 234, 0.142) ;
-    color: black;
+    display: flex;
+    width: 99%;
+    flex-direction: column;
+    align-items: left;
+    box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, 0.2);
+    border: 6px solid transparent;
+
   }
   
-  .grid-responsive{
-    display: grid;
-
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin: 30px; 
-    border: none;
-    background-color: white;
-
-    margin-top: 0.5rem;
-    margin-bottom:1rem;
-    gap: 1rem;
-    border: 10px;
-    background-color: white;
-    padding: 5rem 1rem;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 3rem 2rem;
-    
-
-  }
+ 

@@ -30,9 +30,9 @@ const ShoppingCart =() =>{
     return(
     <div>
 
-        <h3>Celulares</h3>
+      
 
-    <h3>Celulares</h3>
+    <h3 className="tittleShop">Celulares</h3>
 
         <article className='boxProduct grid-responsive'>
             {
@@ -41,21 +41,21 @@ const ShoppingCart =() =>{
         </article>
         
 
-        <h3> Cargadores</h3>
+        <h3 className="tittleShop"> Cargadores</h3>
         <article className='boxProduct grid-responsive'>
             {
                 products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
             }
         </article>
 
-        <h3>Fundas</h3>
+        <h3 className="tittleShop">Fundas</h3>
         <article className='boxProduct grid-responsive'>
             {
                 products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
             }
         </article>
 
-        <h3> Auriculares</h3>
+        <h3 className="tittleShop"> Auriculares</h3>
         <article className='boxProduct grid-responsive'>
             {
                 products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
@@ -63,7 +63,7 @@ const ShoppingCart =() =>{
         </article>
 
 
-        <h3>Carrito</h3>
+        <h3 className="tittleCart">Carrito</h3>
 
         <article className='boxCarrito'>
            {
