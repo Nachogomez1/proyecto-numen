@@ -60,19 +60,19 @@
   padding: 5rem 1rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
   gap: 3rem 2rem;
   box-sizing: border-box;
   }
 
 .addButtom{
-  color: rgb(171, 32, 136);
+  color: #ca6de6;
   background:rgb(8, 8, 8);
   padding: 8px;
   border-radius: 0.5rem;
   font-size: 17px;
   text-transform: uppercase;
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   height: 15%;
   }
