@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import "./homePage.css";
 import Shop from "../../assets/HomePage/shop.png"
