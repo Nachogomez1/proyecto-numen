@@ -2,13 +2,11 @@
   font-size: 5vw;
   text-decoration-line: underline;
   text-align: center;
-  animation-duration: 20s;
+  animation-duration: 15s;
   animation-name: slidein;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
-
-
 
 @keyframes slidein {
   from {

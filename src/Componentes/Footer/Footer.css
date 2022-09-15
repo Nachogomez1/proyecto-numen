@@ -84,3 +84,38 @@
     text-transform: capitalize;
     color: white;
   }
+
+   /* ________________---FAQ---________________*/
+   .Faq {
+    margin: 0px;
+    text-align: center;
+
+  }
+
+  .Faq .Preguntas{
+    width: 100%;
+    max-width: auto;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid black ;
+    width: 95%;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  .Faq .Preguntas p{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+  }
+
+  .Faq .Container :hover{
+    background-color: rgb(202, 203, 205);
+    transition-duration: 80ms;
+  }
+
+    /* ________________---RESPONSIVE---________________*/
+
+  @media screen and (max-width:900px){
+    .Faq{
+      width: 100%;    }
+  }
