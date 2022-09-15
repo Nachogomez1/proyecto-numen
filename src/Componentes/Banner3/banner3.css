@@ -1,20 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 .cases{
     background-image:url("https://cdn.pixabay.com/photo/2016/05/27/08/51/mobile-phone-1419275_960_720.jpg" );
     background-size: 100%;
+    background-repeat: no-repeat;
     
   }
 
 
 .banner3 {
-
+  font-family: Poppins;
     margin-top: 5px;
     margin-bottom: 10px;
     color: transparent;
-    font-size: 20vh;
+    font-size: 10vw;
      -moz-text-stroke-width: 2px;
     -webkit-text-stroke-width: 2px;
     -moz-text-stroke-color: #19020f;
-    -webkit-text-stroke-color: #8e0736;
+    -webkit-text-stroke-color: rgb(143, 9, 116);
     animation: abanner3 2.5s linear infinite;
     text-align: center;
     
