@@ -9,14 +9,7 @@ import React from "react";
 const Varios = () => {
   return (
     <div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
       <Carrousel/>
-      <br/>
     </div>
               
     

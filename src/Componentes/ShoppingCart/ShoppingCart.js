@@ -14,7 +14,6 @@ const ShoppingCart =() =>{
 
     const addToCart=(id) => dispatch({type:TYPES.ADD_TO_CART, payload: id})
     
-
     const deleteFromCart=(id, all =false) => {
         if (all) {
             dispatch({type: TYPES.REMOVE_ALL_FROM_CART, payload: id})
@@ -25,12 +24,8 @@ const ShoppingCart =() =>{
 
     const clearCart=() => dispatch( {type: TYPES.CLEAR_CART})
 
-
-
     return(
-    <div>
-
-      
+    <div>   
 
     <h3 className="tittleShop">Celulares</h3>
 
@@ -39,29 +34,6 @@ const ShoppingCart =() =>{
                 products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
             }
         </article>
-        
-
-        <h3 className="tittleShop"> Cargadores</h3>
-        <article className='boxProduct grid-responsive'>
-            {
-                products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
-            }
-        </article>
-
-        <h3 className="tittleShop">Fundas</h3>
-        <article className='boxProduct grid-responsive'>
-            {
-                products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
-            }
-        </article>
-
-        <h3 className="tittleShop"> Auriculares</h3>
-        <article className='boxProduct grid-responsive'>
-            {
-                products.map(product => <Products key={product.id} data={product} addToCart={addToCart} />)
-            }
-        </article>
-
 
         <h3 className="tittleCart">Carrito</h3>
 

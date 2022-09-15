@@ -13,6 +13,7 @@ import Footer from "../Footer/Footer";
 import InfoBeneficios from "../InfoBeneficios/InfoBeneficios";
 import Faq from "./Faq";
 import Banner from "./Banner";
+import Home from "./Home";
 
 
 
@@ -21,7 +22,8 @@ const Rutas = () => {
         <Router>
             <Header></Header>
             <Routes>
-            <Route path="/" element={<PaginaPrincipal/>} />
+                <Route path="/" element={<PaginaPrincipal/>}/>
+                <Route path="/home" element={<Home/>}/>
                 <Route path="/Celulares"  element={<Celulares/>} />
                 <Route path="/Tecnologia" element={<Tecnologia/>} />
                 <Route path="/Nosotros" element={<Nosotros/>} />

@@ -3,7 +3,7 @@ import { TYPES } from "./ShoppingActions";
 export const shoppingInitialState={
     products:[
         {
-            id:1, nombre: "Producto A", precio: 20000
+            id:1,nombre: "Producto A", precio: 20000
         },
         {
             id:2, nombre: "Producto B", precio: 10000

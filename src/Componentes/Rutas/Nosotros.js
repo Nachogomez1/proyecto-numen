@@ -11,14 +11,7 @@ import CardImage from "../Card/CardImage";
 const Nosotros = () => {
   return (
     <div>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-
       <InfoBeneficios />
-      <br />
     </div>
   )
 }
