@@ -23,19 +23,19 @@ const Header = () => {
 
 
                     <li>
-                        <NavLink to="/Celulares" activeClassname="active">Celulares</NavLink>
+                        <NavLink to="/celulares" activeClassname="active">Celulares</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Tecnologia" activeClassname="active">Tecnologia</NavLink>
+                        <NavLink to="/tecnologia" activeClassname="active">Tecnologia</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Varios" activeClassname="active">Varios</NavLink>
+                        <NavLink to="/varios" activeClassname="active">Varios</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Ofertas" activeClassname="active">Ofertas</NavLink>
+                        <NavLink to="/ofertas" activeClassname="active">Ofertas</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Nosotros" activeClassname="active">Nosotros</NavLink>
+                        <NavLink to="/sobre-nosotros" activeClassname="active">Nosotros</NavLink>
                     </li>
                     <div className="cart">
                     <box-icon name="cart"></box-icon>

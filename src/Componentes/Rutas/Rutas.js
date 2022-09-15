@@ -2,9 +2,10 @@
 
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+
 import PaginaPrincipal from "./PaginaPrincipal";
 import Header from "../Header/index";
-import Nosotros from "./Nosotros"
+import SobreNosotros from "./Nosotros"
 import Tecnologia from "./Tecnologia"
 import Celulares from "./Celulares";
 import Varios from "./Varios";
@@ -26,11 +27,11 @@ const Rutas = () => {
                 <Route path="/home" element={<Home/>}/>
                 <Route path="/Celulares"  element={<Celulares/>} />
                 <Route path="/Tecnologia" element={<Tecnologia/>} />
-                <Route path="/Nosotros" element={<Nosotros/>} />
+                <Route path="/sobre-nosotros" element={<SobreNosotros/>} />
                 <Route path="/Varios" element={<Varios/>} />
                 <Route path="/Ofertas" element={<Ofertas/>} />
                 <Route path="/Beneficios" element={<InfoBeneficios/>} />
-                <Route path="/Preguntas-frecuentes" element={<Faq/>} />
+                <Route path="/preguntas-frecuentes" element={<Faq/>} />
                 <Route path="/Banner" element={<Banner/>} />                       
             </Routes>
             <Footer></Footer>

@@ -19,8 +19,9 @@ function Footer (){
                 </div>
                 <ul className='box'>
                     <h3><b>INFORMACION UTIL</b></h3>
-                    <li><NavLink to="/Preguntas-frecuentes" className="links"><p className='resaltado'>Preguntas frecuentes</p></NavLink></li>
+                    <li><NavLink to="/preguntas-frecuentes" className="links"><p className='resaltado'>Preguntas frecuentes</p></NavLink></li>
                     <li><NavLink to="/" className="links"><p className='resaltado'>Volver al inicio</p></NavLink></li>
+                    <li><NavLink to="/home" className="links"><p className='resaltado'>Home</p></NavLink></li>
                 </ul>
                 <ul className='box'>
                     <h3><b>LO MAS BUSCADO</b></h3>
