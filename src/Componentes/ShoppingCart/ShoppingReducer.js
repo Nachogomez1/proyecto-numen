@@ -1,7 +1,30 @@
 import { TYPES } from "./ShoppingActions";
 
 export const shoppingInitialState={
+<<<<<<< HEAD
     products:[],
+=======
+    products:[
+        {
+            id:1,nombre: "Producto A", precio: 20000
+        },
+        {
+            id:2, nombre: "Producto B", precio: 10000
+        },
+        {
+            id:3, nombre: "Producto C", precio: 15000
+        },
+        {
+            id:4, nombre: "Producto D", precio: 20000
+        },
+        {
+            id:5, nombre: "Producto E", precio: 25000
+        },
+        {
+            id:6, nombre: "Producto F", precio: 30000
+        }
+    ],
+>>>>>>> a393105c13178880da9ef83a3c8aba8d60f5651b
     cart:[]
 };
 

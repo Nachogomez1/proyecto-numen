@@ -37,7 +37,7 @@ const InfoBeneficios = () => {
 
    <h2 className='container' > Beneficios de comprar online</h2>
    
-   <div className='box grid-responsive'>
+   <div className='box grid-responsiveBenef'>
    {
   
     INFO.map(benef=> <Seccion key={benef.id} data={benef} />)

@@ -3,6 +3,8 @@ import React from "react";
 import ShoppingCart from "../ShoppingCart/ShoppingCart";
 // import Footer from "../Footer/Footer";
 import CardImage from "../Card/CardImage";
+import Robot from "../Robot/Robot";
+
 
 
 

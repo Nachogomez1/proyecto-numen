@@ -1,51 +1,51 @@
 import React from 'react'
 import "./index.css"
 import Logo from "../../assets/logo/Logo Header.png";
-import { Link, NavLink } from 'react-router-dom';
-import Carrousel from '../Carrousel';
-
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+
     return (
-        
-        <header>     
-            <NavLink  to="/"activeClassname="active">
+
+        <header>
+            <NavLink to="/" activeClassname="active">
                 <div className="logo">
-                    <img src={Logo} alt="" width="100"/>
+                    <img src={Logo} alt="" width="100" />
                 </div>
-            </NavLink >                  
-            <nav>                
+            </NavLink>
+            <nav>
                 <ul>
-
-                    {/* <li>
-                        <img src={Logo} alt="logo" prop="logo"></img>
-                    </li> */}
-
-
                     <li>
-                        <NavLink to="/Celulares"activeClassname="active">Celulares</NavLink>
+                        <NavLink to="/celulares" activeClassname="active">Celulares</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Tecnologia"activeClassname="active">Tecnologia</NavLink>
+                        <NavLink to="/tecnologia" activeClassname="active">Tecnologia</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Varios"activeClassname="active">Varios</NavLink>
+                        <NavLink to="/varios" activeClassname="active">Varios</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Ofertas"activeClassname="active">Ofertas</NavLink>
+                        <NavLink to="/ofertas" activeClassname="active">Ofertas</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/Nosotros"activeClassname="active">Nosotros</NavLink>
+                        <NavLink to="/sobre-nosotros" activeClassname="active">Nosotros</NavLink>
                     </li>
+                    <div>
+                        <button>
+                            <box-icon name="cart"></box-icon>
+                                <span className="item_total">
+                                    <b>
+                                    
+                                    </b>
+                                </span>
+                        </button>     
+                    </div>
                 </ul>
-                {/* <div className="cart">
-            <box-icon name="cart"></box-icon>
-            <span className="item_total">0</span>
-            </div> */}
-            </nav>
                 
+            </nav>
+
         </header>
-        
+
     )
 }
 

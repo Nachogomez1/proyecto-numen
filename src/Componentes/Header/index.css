@@ -1,20 +1,18 @@
-
-
 /*HEADER*/
 
 header {
   width: 100%;
   min-height: 100px;
-  max-width: Auto;
+  max-width: auto;
   overflow: hidden;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  position: fixed;
+  position:relative;
   box-sizing: border-box;
   background-color: white;
-  box-shadow: 0 5px 10px #08a05ca4;
+  box-shadow: 0 5px 10px #bb2483;
 }
 
 a {
@@ -24,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #08a05c
+  color: #bb2483
 }
 
 li {
@@ -46,25 +44,38 @@ header ul li a {
   font-size: small;
 }
 
-header .cart box-icon {
-  width: 45px;
-  height: 45px;
+header .cart {
+  position: relative;
+  cursor: pointer;
+  top: -0.5rem;
+  right: -0rem;
 }
+
+header button{
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+background-color: #bb24843c;}
 
 header .cart span {
   position: absolute;
-  top: -1.5rem;
-  right: 12.5rem;
-  width: 1.5rem;
-  height: 5.5rem;
-  
+  top: -0.6rem;
+  right: -0.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: black;
   padding: 0rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 700;
-  
+
+}
+
+@media only screen and (max-width: 600px){
+  header ul{
+    display: none;
+  }
 }

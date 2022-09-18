@@ -1,18 +1,16 @@
 
-.grid-responsive{
+.grid-responsiveBenef{
     display: grid;
-
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     margin: 30px;
-  
-
     grid-template-rows: 10rem;
     grid-auto-flow: dense;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
     margin: 30px;
-    align-items: center;
+    align-items: flex-start;
+    font-family: sans-serif;
  
 
   }
@@ -20,20 +18,25 @@
   .benef {
     
     padding: 1rem;
-    color: violet;
+    color: rgb(143, 9, 116);
   
   }
   
   .container{
    
     text-align: center;
-    text-decoration: underline black; 
-    font-family: roboto;
+    text-decoration: underline rgb(143, 9, 116); 
+    font-family: Poppins;
+    
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    margin-top: 50px;
     
   }
   
   .benef:hover{
     color: black;
-    text-shadow: #8e0736 1px 1px 4px;
+    text-shadow: rgb(143, 9, 116) 1px 1px 4px;
   
   }

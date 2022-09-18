@@ -1,106 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+.tittleShop {
+  font-size: 5vw;
+  font-family: Poppins;
+  text-decoration-line: underline;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 20px;
+  animation-duration: 15s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
 
-.boxProduct {
-    padding: 0px;
-    border-radius: 0px;
-    background-color: rgba(234, 130, 234, 0.142);
-    color: rgb(0, 0, 0);
-    border: solid black 1px;
-    text-align: center;
-    height: 280px;
-    border-radius:10px ;
-  
-  }
-  
-
-  .addButtom{
-    color: white;
-    background:rgb(63, 61, 61);
-    padding: 8px;
-    border-radius: 0.5rem;
-    font-size: 17px;
-    text-transform: uppercase;
-    width: 70%;
-    margin: 0 auto;
-    height: 10%;
-
+@keyframes slidein {
+  from {
+    margin-left: 70%;
+   
   }
 
-  .deleteButtom{
-    color: rgb(0, 0, 0);
-    background:rgb(255, 255, 255);
-    padding: 3px;
-    border-radius: 0.5rem;
-    font-size: 14px;
-    text-transform: uppercase;
-    width: 10%;
-    margin: 0 auto;
-    height: 10%;
-
+  to {
+    margin-right: 70%;
+    
   }
+}
 
-  .deleteAllButtom{
-    color: rgb(0, 0, 0);
-    background:rgb(207, 93, 93);
-    padding: 3px;
-    border-radius: 0.5rem;
-    font-size: 14px;
-    text-transform: uppercase;
-    width: 10%;
-    margin: 0 auto;
-    height: 10%;
+.tittleCart {
+  font-size: 5vw;
+  text-decoration-line: underline;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 20px;
+  animation: cambioColor 2s ;
+  animation-iteration-count: infinite;
+}
 
-  }
-
-  .cleanButtom{
-    color: rgb(0, 0, 0);
-    background:rgb(255, 255, 255);
-    padding: 3px;
-    border-radius: 0.5rem;
-    font-size: 14px;
-    text-transform: uppercase;
-    width: 10%;
-    margin: 0 auto;
-    height: 10%;
-
-  }
-
-.boxProduct {
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 0px;
-    background-color: #ca6de6;
-    color: rgb(0, 0, 0);
-    border: solid black 2px;
-    text-align: center;
-    height: 280px;
-    border-radius:10px ;
-  }
-  
-  .boxCarrito{
-    padding: 20px;
-    background-color: rgba(234, 130, 234, 0.142) ;
+@keyframes cambioColor {
+  0% {
     color: black;
   }
-  
-  .grid-responsive{
-    display: grid;
-
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin: 30px; 
-    border: none;
-    background-color: white;
-
-    margin-top: 0.5rem;
-    margin-bottom:1rem;
-    gap: 1rem;
-    border: 10px;
-    background-color: white;
-    padding: 5rem 1rem;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 3rem 2rem;
-    
-
+  50% {
+    color: #bb2483;
   }
+  100%{
+    color: black;
+  }
+}
+
+.boxProduct {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, 0.2);
+  border: 6px solid transparent;
+  }
+
+.grid-responsive{
+  padding: 5rem 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 3rem 2rem;
+  box-sizing: border-box;
+  }
+
+.addButtom{
+  color: #ca6de6;
+  background:rgb(8, 8, 8);
+  padding: 8px;
+  border-radius: 0.5rem;
+  font-size: 17px;
+  text-transform: uppercase;
+  width: 50%;
+  margin: 0 auto;
+  height: 15%;
+  }
+
+.addButtom:hover{
+  color: rgb(12, 10, 10);
+  background-color: rgb(171, 32, 136);
+  font-weight: bold;
+  }
+
+
+.deleteButtom{
+  color: rgb(0, 0, 0);
+  background:rgb(255, 255, 255);
+  padding: 3px;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 10%;
+  margin: 0 auto;
+  height: 10%;
+  }
+
+.deleteAllButtom{
+  color: rgb(0, 0, 0);
+  background:rgb(207, 93, 93);
+  padding: 3px;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 10%;
+  margin: 0 auto;
+  height: 10%;
+  }
+
+.cleanButtom{
+  color: #ca6de6;
+  background:rgb(10, 10, 10);
+  padding: 3px;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 12%;
+  margin: 0 auto;
+  height: 12%;
+  }
+
+
+.boxCarrito{
+  display: flex;
+  width: 99%;
+  flex-direction: column;
+  align-items: left;
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, 0.2);
+  border: 6px solid transparent;
+  }
+  
+ 

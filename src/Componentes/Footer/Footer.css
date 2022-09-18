@@ -25,7 +25,7 @@
     width: 250px;
   }
   
-  /* ________________---BOX GRUPO 1---________________*/
+  /* ________________---BOX---________________*/
   
   .Footer .grupo-1 .box h3{
     color: rgb(0, 0, 0);
@@ -41,16 +41,22 @@
   .Footer .grupo-1 .box .resaltado:hover{
     color: white;
   }
-  
-  /* ________________---RED SOCIAL---________________*/
-  
+  .Footer .grupo-1 .redSocial{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
   .Footer .grupo-1 .redSocial img{
     display: inline-flex;
     flex-direction: column;
     text-decoration: none;
     width: 50px;
     height: 50px;
-    margin-right: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
 
   }
   
@@ -83,4 +89,39 @@
   .links{
     text-transform: capitalize;
     color: white;
+  }
+
+   /* ________________---FAQ---________________*/
+   .Faq {
+    margin: 0px;
+    text-align: center;
+
+  }
+
+  .Faq .Preguntas{
+    width: 100%;
+    max-width: auto;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid black ;
+    width: 95%;
+    margin: 5px;
+    border-radius: 10px;
+  }
+
+  .Faq .Preguntas p{
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+  }
+
+  .Faq .Container :hover{
+    background-color: rgb(202, 203, 205);
+    transition-duration: 80ms;
+  }
+
+    /* ________________---RESPONSIVE---________________*/
+
+  @media screen and (max-width:900px){
+    .Faq{
+      width: 100%;    }
   }
