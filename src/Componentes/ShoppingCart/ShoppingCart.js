@@ -1,14 +1,35 @@
 import React from "react";
-import { useReducer } from "react";
+import { useReducer, useEffect } from "react";
 import CartItems from "./CartItems";
 import { shoppingInitialState, shoppingReducer } from "./ShoppingReducer";
 import Products from "./Products";
 import { TYPES } from "./ShoppingActions";
 import "./shopping.css"
+import axios from "axios";
 
 
 const ShoppingCart =() =>{
     const [state, dispatch] = useReducer(shoppingReducer, shoppingInitialState)  
+
+    const updateState = async () => {
+        const productsURL = "http://localhost:5000/products",
+          cartURL = "http://localhost:5000/cart"    
+
+    const resProducts = await axios.get(productsURL),
+         resCart = await axios.get(cartURL)  
+
+    const productsList = await resProducts.data,
+        newCartItem = await resCart.data  
+
+    dispatch({type: TYPES.READ_STATE, payload: [productsList, newCartItem]})    
+
+    }
+
+    useEffect(() => {
+        updateState() 
+     
+    }, [])
+    
 
     const {products, cart} = state;
 
