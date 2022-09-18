@@ -1,11 +1,10 @@
 import React from 'react'
 import "./index.css"
 import Logo from "../../assets/logo/Logo Header.png";
-import { Link, NavLink } from 'react-router-dom';
-import Carrousel from '../Carrousel';
-
+import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+
     return (
 
         <header>
@@ -13,15 +12,9 @@ const Header = () => {
                 <div className="logo">
                     <img src={Logo} alt="" width="100" />
                 </div>
-            </NavLink >
+            </NavLink>
             <nav>
                 <ul>
-
-                    {/* <li>
-                        <img src={Logo} alt="logo" prop="logo"></img>
-                    </li> */}
-
-
                     <li>
                         <NavLink to="/celulares" activeClassname="active">Celulares</NavLink>
                     </li>
@@ -37,10 +30,16 @@ const Header = () => {
                     <li>
                         <NavLink to="/sobre-nosotros" activeClassname="active">Nosotros</NavLink>
                     </li>
-                    <div className="cart">
-                    <box-icon name="cart"></box-icon>
-                    <span className="item_total">0</span>
-                </div>
+                    <div>
+                        <button>
+                            <box-icon name="cart"></box-icon>
+                                <span className="item_total">
+                                    <b>
+                                    
+                                    </b>
+                                </span>
+                        </button>     
+                    </div>
                 </ul>
                 
             </nav>

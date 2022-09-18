@@ -47,16 +47,19 @@ header ul li a {
 header .cart {
   position: relative;
   cursor: pointer;
+  top: -0.5rem;
+  right: -0rem;
 }
 
-header .cart box-icon {
-  width: 45px;
-  height: 45px;
-}
+header button{
+  width: 40px;
+  height: 35px;
+  border-radius: 10px;
+background-color: #bb24843c;}
 
 header .cart span {
   position: absolute;
-  top: -1rem;
+  top: -0.6rem;
   right: -0.5rem;
   width: 2.5rem;
   height: 2.5rem;

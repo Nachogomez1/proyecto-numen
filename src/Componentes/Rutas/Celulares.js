@@ -15,7 +15,6 @@ const Celulares = () => {
       <br/>
       <br/>
       <ShoppingCart/>
-      <Robot/>
       <br/>
      
     </div>
