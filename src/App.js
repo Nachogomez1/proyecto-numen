@@ -51,11 +51,11 @@ import CrudTableRow from './Componentes/CrudTableRow';
 //   }, []) 
 // }
 
-const initialDb = []
+//const initialDb = []
 
 function App() {
 
-  const [db, setDb] = useState(initialDb)
+  /*const [db, setDb] = useState(initialDb)
   const [dataToEdit, setDataToEdit] = useState(null)
 
   const getData = async () => {
@@ -121,7 +121,7 @@ function App() {
       return
     }
   }
-
+*/
 
 
   return (
@@ -141,7 +141,7 @@ function App() {
 
         
       {/* </></div>  */}
-      <div>
+    {/*  <div>
         <h2>CRUD</h2>
         <CrudForm 
         createData={createData}
@@ -155,7 +155,7 @@ function App() {
          setDataToEdit={setDataToEdit}
         />
       </div>
-        
+        */}
     <Rutas>
         <div> 
           <Rutas/>
