@@ -25,9 +25,13 @@ const Header = () => {
                     <li>
                         <NavLink to="/Celulares"activeClassname="active">Celulares</NavLink>
                     </li>
+<<<<<<< HEAD
                     <li>
                         <NavLink to="/Tecnologia"activeClassname="active">Tecnologia</NavLink>
                     </li>
+=======
+                    
+>>>>>>> 5676d7b610d3a733293741aadb43021b6e135b97
                     <li>
                         <NavLink to="/Varios"activeClassname="active">Varios</NavLink>
                     </li>

@@ -12,16 +12,16 @@ const ShoppingCart =() =>{
     const [state, dispatch] = useReducer(shoppingReducer, shoppingInitialState)  
 
     const updateState = async () => {
-        const productsURL = "http://localhost:5000/products",
+        const celularesURL = "http://localhost:5000/celulares",
           cartURL = "http://localhost:5000/cart"    
 
-    const resProducts = await axios.get(productsURL),
+    const resCelulares = await axios.get(celularesURL),
          resCart = await axios.get(cartURL)  
 
-    const productsList = await resProducts.data,
+    const celularesList = await resCelulares.data,
         newCartItem = await resCart.data  
 
-    dispatch({type: TYPES.READ_STATE, payload: [productsList, newCartItem]})    
+    dispatch({type: TYPES.READ_STATE, payload: [celularesList, newCartItem]})    
 
     }
 

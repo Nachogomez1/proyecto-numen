@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 .boxProduct {
     padding: 0px;
@@ -104,3 +105,141 @@
     
 
   }
+=======
+.tittleShop {
+  font-size: 5vw;
+  font-family: Poppins;
+  text-decoration-line: underline;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 20px;
+  animation-duration: 15s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 70%;
+
+  }
+
+  to {
+    margin-right: 70%;
+
+  }
+}
+
+.tittleCart {
+  font-size: 5vw;
+  text-decoration-line: underline;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 20px;
+  animation: cambioColor 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cambioColor {
+  0% {
+    color: black;
+  }
+
+  50% {
+    color: #bb2483;
+  }
+
+  100% {
+    color: black;
+  }
+}
+
+.boxProduct {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, 0.2);
+  border: 6px solid transparent;
+}
+
+.grid-responsive {
+  padding: 5rem 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 3rem 2rem;
+  box-sizing: border-box;
+}
+
+.addButtom {
+  color: #ca6de6;
+  background: rgb(8, 8, 8);
+  padding: 8px;
+  border-radius: 0.5rem;
+  font-size: 17px;
+  text-transform: uppercase;
+  width: 50%;
+  margin: 0 auto;
+  height: 15%;
+}
+
+.addButtom:hover {
+  color: rgb(12, 10, 10);
+  background-color: rgb(171, 32, 136);
+  font-weight: bold;
+}
+
+
+.deleteButtom {
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  padding: 3px;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 10%;
+  margin: 0 auto;
+  height: 10%;
+}
+
+.deleteAllButtom {
+  color: rgb(0, 0, 0);
+  background: rgb(171, 32, 136);
+  padding: 3px;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 10%;
+  margin: 0 auto;
+  height: 10%;
+}
+
+.cleanButtom {
+  color: rgb(171, 32, 136);
+  background: rgb(10, 10, 10);
+  padding: 3px;
+  border-radius: 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 12%;
+  margin: 0 auto;
+  height: 14%;
+}
+
+
+.boxCarrito {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  margin: 1%;
+  text-align: center;
+  color: black;
+  padding: 2%;
+  border-radius: 2%;
+  box-shadow: inset 0 0 4px 4px rgb(171, 32, 136);
+}
+>>>>>>> 5676d7b610d3a733293741aadb43021b6e135b97

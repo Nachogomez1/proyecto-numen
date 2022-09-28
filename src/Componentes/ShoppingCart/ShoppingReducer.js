@@ -2,6 +2,10 @@ import { TYPES } from "./ShoppingActions";
 
 export const shoppingInitialState={
     products:[],
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5676d7b610d3a733293741aadb43021b6e135b97
     cart:[]
 };
 
@@ -58,7 +62,10 @@ export function shoppingReducer(state,action){
 
         }
         case TYPES.CLEAR_CART:{
-            return shoppingInitialState 
+            return {
+                ...state,
+                cart:[],
+            }
          }
         default:
             return state;
